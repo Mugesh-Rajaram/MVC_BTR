@@ -1,0 +1,212 @@
+﻿@model MVC_BTR.Areas.BTR.Models.BTopupRQ
+
+@{
+    List<SelectListItem> ddlAccountType = new List<SelectListItem>();
+    ddlAccountType.Add(new SelectListItem { Text = "Topup", Value = "T" });
+
+    List<SelectListItem> LstPaymentmode = new List<SelectListItem>();
+    LstPaymentmode.Add(new SelectListItem { Text = "Shadow Balance", Value = "5" });
+}
+
+<!--media -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description" content="Font Awesome, the iconic font and CSS framework" />
+<link href="~/Contents/CSS/chosen.css" rel="stylesheet" />
+<link href="~/Contents/CSS/font-awesome.css" rel="stylesheet" />
+<link href="~/Contents/CSS/jqueryuiLight.css" rel="stylesheet" />
+<link href="~/Contents/CSS/Loader.css" rel="stylesheet" />
+<link href="~/Contents/CSS/styles.css" rel="stylesheet" />
+
+@Scripts.Render("~/bundles/JQuery")
+@Scripts.Render("~/bundels/styles")
+
+@using (@Html.BeginForm())
+{ 
+    <div id="wrapper" class="clearfix">
+
+        <center>    
+             <div id="divlogo">
+                 <table>
+                     <tr>
+                         <td id="tdlogo"> 
+                             <img src="Images/riya_logo.png" />
+                         </td>
+                         <td style="vertical-align: middle;color:rgba(17, 23, 234, 0.98);">
+                             <nobr><h2>Branch Topup Request</h2></nobr>
+                         </td>
+                     </tr>
+
+                 </table> 
+             </div>
+           </center>
+        <center>
+
+                <div class="formcontent">
+                    <!-- form content start -->
+                    <div class="section package">
+                    @*<center>
+                    <h3 class="title" style="text-align: center;">
+                        Branch Topup Request
+                    </h3>
+                        </center>*@
+                    <a class="title" style="cursor: pointer; float:right;text-decoration:underline;font-style:italic; " id="sum"><nobr>Show Balance</nobr></a>
+                </div>
+
+                    <div class="section clearfix contacts">
+                    <!-- contacts -->
+
+                    <div class="leftcol">
+                        <div class="con">
+                            @Html.DropDownListFor(m => m.ddlBranchName, Model.ddlBranchName , new { @placeholder = "Branch Name" })
+                        </div>                          
+                    </div>
+
+                    <div class="rightcol">
+                        <div class="con">         
+                            @Html.DropDownListFor(m => m.ddlAgencyName, Model.ddlAgencyName, new { @placeholder = "Agency Name" }) 
+                        </div>
+                    </div>
+
+                    <div class="leftcol">                     
+                        <div class="con">     
+                            @Html.DropDownListFor(m => m.ddlAgentID, Model.ddlAgentID, new { @placeholder = "Agent ID" })                       
+                        </div>
+                    </div>
+
+                    <div class="rightcol">
+                         <div class="con" id="ddltop" style="padding-top:10px">
+                             @Html.DropDownListFor(m => m.ddlAccountType, ddlAccountType, new { @class = "orderInfo", @placeholder = "Select Account type" })
+                        </div>
+                    </div>
+
+                    <div id="ddlPay" style="width:100%;padding: 1px 0 0px 1px;">
+                        @Html.DropDownListFor(m => m.ddlPaymentMode, LstPaymentmode, new { @class = "orderInfo payment" })
+                    </div>
+
+                    <div id="cash">
+                        <div class="leftcol">
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtCashRequestedBy, "", new { @class = "orderInfo", @placeholder = "Requested By", @title = "Requested By", @size = "26", @maxlength = "50" })
+                                @*<input tabindex="6" id="txtCashRequestedBy" maxlength="50" type="text" name="Requested By" placeholder="Requested By" title="Requested By" size="26" value="" class="orderInfo" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtCashAmount, "", new { @class = "orderInfo", @placeholder = "Amount", @title = "Amount", @size = "26", @type = "number", @maxlength = "7" })
+                                @*<input tabindex="7" id="txtCashAmount" maxlength="7" type="number" name="Amount" placeholder="Amount" title="Amount" size="26" value="" class="orderInfo" />*@
+                            </div>
+                        </div>
+                        <div class="rightcol">
+                            @Html.TextAreaFor(m => m.txtCashRemarks, new { @class = "orderInfo", @placeholder = "Amount", @title = "Amount", @size = "26", @type = "number", @maxlength = "250" })
+                            @*<textarea tabindex="8" id="txtCashRemarks" maxlength="250" name="Remarks" placeholder="Remarks" rows="4" cols="35" title="Remarks" class="orderInfo"></textarea>*@
+                        </div>
+                    </div>
+
+                    <div id="cheque" style="display: none">
+                        <div class="leftcol">
+                            <div class="con datepicker-wrap">
+                                @Html.TextBoxFor(m => m.txtChequeDate, "", new { @type = "text", @readonly = "true", @name = "Cheque Date", @placeholder = "Cheque Date", @title = "Cheque Date", @class = "nput-text full-width" })
+                                @*<input tabindex="6" id="txtChequeDate" type="text" readonly="true" name="Cheque Date" placeholder="Cheque Date" title="Cheque Date" value="" class="nput-text full-width" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtChequeN0, "", new { @maxlength = "20", @type = "text", @name = "Cheque No", @placeholder = "Cheque No", @title = "Cheque No", @size = "26", @class = "orderInfo" })
+                                @*<input  tabindex="7" id="txtChequeN0" maxlength="20" type="text" name="Cheque No" placeholder="Cheque No" title="Cheque No" size="26" value="" class="orderInfo" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtChequeBankName, "", new { @maxlength = "50", @type = "text", @name = "Bank Name", @placeholder = "Bank Name", @title = "Bank Name", @size = "20", @class = "orderInfo" })
+                                @*<input tabindex="8" id="txtChequeBankName" maxlength="50" type="text" name="Bank Name" placeholder="Bank Name" title="Bank Name" size="26" value="" class="orderInfo" />*@
+                            </div>
+                        </div>
+
+                        <div class="rightcol">
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtChequeBranchName, "", new { @maxlength = "50", @type = "text", @title = "Branch Name", @size = "26", @placeholder = "Branch Name", @class = "orderInfo" })
+                                @*<input tabindex="9" id="txtChequeBranchName" maxlength="50" type="text" title="Branch Name" placeholder="Branch Name" size="26" value="" class="orderInfo" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtChequeBranchName, "", new { @maxlength = "7", @type = "number", @title = "Amount", @size = "26", @placeholder = "Amount", @class = "orderInfo" })
+                                @*<input tabindex="10" id="txtChequeAmount" maxlength="7" type="number" title="Amount" size="26" value="" placeholder="Amount" class="orderInfo" />*@
+                            </div>
+                            @Html.TextAreaFor(m => m.txtChequeRemarks, new { @maxlength = "250", @placeholder = "Remarks", @rows = "4", @cols = "35", @title = "Remarks", @class = "orderInfo" })
+                            @*<textarea tabindex="11" id="txtChequeRemarks" maxlength="250" placeholder="Remarks" rows="4" cols="35" title="Remarks" class="orderInfo"></textarea>*@
+                        </div>
+                    </div>
+
+                    <div id="dd" style="display: none">
+                        <div class="leftcol">
+                            <div class="con datepicker-wrap">
+                                @Html.TextBoxFor(m => m.txtDDDdDate, "", new { @readonly = "true", @type = "text", @name = "DD Date", @title = "DD Date", @size = "26", @placeholder = "DD Date", @class = "nput-text full-width" })
+                                @*<input tabindex="6" id="txtDDDdDate" type="text" readonly="true" name="DD Date" placeholder="DD Date" title="DD Date" value="" class="nput-text full-width" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtDDDdNo, "", new { @maxlength = "20", @type = "text", @name = "DD Date", @placeholder = "DD Date", @title = "DD Date", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="7" id="txtDDDdNo" maxlength="20" type="text" name="DD No" placeholder="DD No" title="DD No" size="26" value="" class="orderInfo" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtDDBankName, "", new { @maxlength = "50", @type = "text", @name = "Bank Name", @placeholder = "Bank Name", @title = "Bank Name", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="8" id="txtDDBankName" maxlength="50" type="text" name="Bank Name" placeholder="Bank Name" title="Bank Name" size="26" value="" class="orderInfo" />*@
+                            </div>
+                        </div>
+
+                        <div class="rightcol">
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtDDBranchName, "", new { @maxlength = "50", @type = "text", @name = "Branch Name", @placeholder = "Branch Name", @title = "Branch Name", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="9" id="txtDDBranchName" maxlength="50" type="text" title="Branch Name" placeholder="Branch Name" size="26" value="" class="orderInfo" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtDDAmount, "", new { @maxlength = "7", @type = "number", @name = "Amount", @placeholder = "Amount", @title = "Amount", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="10" id="txtDDAmount" maxlength="7" type="number" title="Amount" size="26" value="" placeholder="Amount" class="orderInfo" />*@
+                            </div>
+                            @Html.TextAreaFor(m => m.txtDDRemarks, new { @maxlength = "250", @placeholder = "Remarks", @rows = "4", @cols = "35", @title = "Remarks", @class = "orderInfo" })
+                            @*<textarea tabindex="11" id="txtDDRemarks" maxlength="250" name="Remarks" placeholder="Remarks" rows="4" cols="35" title="Remarks" class="orderInfo"></textarea>*@
+                        </div>
+                    </div>
+
+                    <div id="net" style="display: none">
+                        <div class="leftcol">
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtNetTransferID, "", new { @maxlength = "20", @type = "text", @name = "Transfer ID", @placeholder = "Transfer ID", @title = "Transfer ID", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="6" id="txtNetTransferID" maxlength="20" type="text" name="Transfer ID" placeholder="Transfer ID" title="Transfer ID" size="26" value="" class="orderInfo" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtNetBankName, "", new { @maxlength = "50", @type = "text", @name = "Bank Name", @placeholder = "Bank Name", @title = "Bank Name", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="7" id="txtNetBankName" maxlength="50" type="text" name="Bank Name" placeholder="Bank Name" title="Bank Name" size="26" value="" class="orderInfo" />*@
+                            </div>
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtNetAccNo, "", new { @maxlength = "20", @type = "text", @name = "Account No", @placeholder = "Account No", @title = "Account No", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="8" id="txtNetAccNo" maxlength="20" type="text" name="Account No" placeholder="Account No" title="Account No" size="26" value="" class="orderInfo" />*@
+                            </div>
+                        </div>
+
+                        <div class="rightcol">
+                            <div class="con">
+                                @Html.TextBoxFor(m => m.txtNetAmount, "", new { @maxlength = "7", @type = "number", @name = "Amount", @placeholder = "Amount", @title = "Amount", @size = "26", @class = "orderInfo" })
+                                @*<input tabindex="9" id="txtNetAmount" maxlength="7" type="number" title="Amount" size="26" placeholder="Amount" value="" class="orderInfo" />*@
+                            </div>
+                            @Html.TextAreaFor(m => m.txtDDRemarks, new { @maxlength = "250", @placeholder = "Remarks", @rows = "4", @cols = "35", @title = "Remarks", @class = "orderInfo" })
+                            @*<textarea tabindex="10" id="txtNetRemarks" maxlength="250" name="Remarks" placeholder="Remarks" rows="4" cols="35" title="Remarks" class="orderInfo"></textarea>*@
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                    <!-- end of contacts -->
+                    <div id="submitForm">
+                        <input tabindex="6" class="Button" type="submit" value="Submit" id="btnSubmit" name="Submit" />
+                        <input tabindex="7" class="Button" type="button" value="Clear" id="btnClear" />
+                        <input tabindex="8" class="Button" type="submit" value="Logout" id="btnLogout" name="Submit" />
+                    </div>
+
+                </div>
+
+            </center>
+        <!-- form content end .formcontent-->
+        <div id="dashboardWrapper" runat="server">
+            <!-- dashboard -->
+        </div>
+
+        <!-- end of dashboard -->
+        <input type="hidden" name="total" value="0" />
+        <input type="hidden" id="hdnCurrentDate" value="" />
+        <input type="hidden" id="hdnLoginUserName" value="" />
+
+    </div>
+}

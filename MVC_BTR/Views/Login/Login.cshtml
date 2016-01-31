@@ -1,0 +1,39 @@
+﻿@model MVC_BTR.Models.Login
+@using System.Web.Optimization;
+
+@{
+    ViewBag.Title = "Branch Topup Request";
+}
+
+<title>@ViewBag.Title</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<script src="~/Scripts/jquery-2.1.4.js"></script>
+
+@Styles.Render("~/bundles/LoginCss")
+@Scripts.Render("~/bundles/JQuery")
+
+@using (@Html.BeginForm("Login", "Login"))
+{
+    <div class="Login">
+        <h1>
+            <nobr>Branch Topup Request</nobr>
+        </h1>
+        @Html.TextBoxFor(model => model.StrUserName, new { @Class = "login-input", placeholder = "User Name" })
+        @Html.TextBoxFor(model => model.StrPassword, new { @Class = "login-input", @type = "password", placeholder = "Password" })
+        @*@Html.DropDownListFor(model => model.StrPassword, new SelectList(ViewBag.Name as System.Collections.IEnumerable, "", "", ""), "--Select--", new { @placeholder = "Branch Name" })*@
+        <input type="submit" id="btnSubmit" value="Login" class="login-submit" />
+        <input type="button" id="btnClear" value="Clear" class="login-submit" />
+    </div>
+}
+
+<script type="text/javascript">
+
+    $('#btnClear').click(function () {
+        $('#StrUserName').val('');
+        $('#StrPassword').val('');
+    });
+
+</script>
+
+

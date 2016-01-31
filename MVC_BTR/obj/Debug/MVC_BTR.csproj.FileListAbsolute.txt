@@ -1,0 +1,99 @@
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\MVC_BTR.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\MVC_BTR.pdb
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\Antlr3.Runtime.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\Microsoft.Web.Infrastructure.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\Newtonsoft.Json.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.Formatting.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.WebRequest.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Helpers.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Http.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Http.WebHost.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Mvc.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Optimization.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Razor.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Deployment.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Razor.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\WebGrease.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\Antlr3.Runtime.pdb
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\Newtonsoft.Json.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Optimization.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.Formatting.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.WebRequest.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Helpers.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Http.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Http.WebHost.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Mvc.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.Razor.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Deployment.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Razor.xml
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.csprojResolveAssemblyReference.cache
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.dll
+D:\STUDIES\TRAINING\MVC_Development\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.pdb
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\MVC_BTR.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\MVC_BTR.pdb
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\Antlr3.Runtime.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\Microsoft.Web.Infrastructure.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\Newtonsoft.Json.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.WebRequest.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Helpers.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Mvc.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Optimization.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Razor.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Deployment.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Razor.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\WebGrease.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\Antlr3.Runtime.pdb
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\Newtonsoft.Json.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Optimization.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Net.Http.WebRequest.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Helpers.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Mvc.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.Razor.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Deployment.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Razor.xml
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.dll
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.pdb
+D:\MY-DATA\RIYA-WCF-CODING\CODING\OTS\MVC Development\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.csprojResolveAssemblyReference.cache
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\MVC_BTR.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\MVC_BTR.pdb
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\Antlr3.Runtime.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\Microsoft.Web.Infrastructure.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\Newtonsoft.Json.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Net.Http.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Net.Http.Formatting.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Net.Http.WebRequest.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Helpers.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Http.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Http.WebHost.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Mvc.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Optimization.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Razor.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Deployment.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Razor.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\WebGrease.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\Antlr3.Runtime.pdb
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\Newtonsoft.Json.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Optimization.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Net.Http.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Net.Http.Formatting.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Net.Http.WebRequest.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Helpers.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Http.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Http.WebHost.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Mvc.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.Razor.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Deployment.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\bin\System.Web.WebPages.Razor.xml
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.csprojResolveAssemblyReference.cache
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.dll
+D:\CODING\MY OWN DEVELOPMENT\CMPY\MVC_BTR\MVC_BTR\obj\Debug\MVC_BTR.pdb
