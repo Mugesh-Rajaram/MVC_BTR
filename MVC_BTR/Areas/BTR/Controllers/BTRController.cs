@@ -5,6 +5,16 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
+using System.Text;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Data;
+using System.Globalization;
+using System.Collections;
+using System.Reflection;
+using System.IO;
+
 namespace MVC_BTR.Areas.BTR.Controllers
 {
     public class BTRController : Controller
@@ -40,6 +50,7 @@ namespace MVC_BTR.Areas.BTR.Controllers
         }
 
         [HttpPost]
+        [MvcPractise.Helpers.MultipleButton]
         public ActionResult Index(BTopupRQ Input, string Submit)
         {
             BTopupRQ BTRP = new BTopupRQ();
@@ -73,6 +84,5 @@ namespace MVC_BTR.Areas.BTR.Controllers
             }
             return View(BTRP);
         }
-
     }
 }
