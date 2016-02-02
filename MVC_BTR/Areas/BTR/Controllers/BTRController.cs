@@ -50,6 +50,7 @@ namespace MVC_BTR.Areas.BTR.Controllers
         }
 
         [HttpPost]
+        [MvcPractise.Helpers.MultipleButton]
         public ActionResult Index(BTopupRQ Input, string Submit)
         {
             BTopupRQ BTRP = new BTopupRQ();
